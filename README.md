@@ -21,7 +21,7 @@
 
 ## 📖 Deskripsi
 
-**Proyek 18 (PHPs)** merupakan sebuah prototipe website *e-learning* atau portal mata pelajaran yang dibangun menggunakan bahasa pemrograman **PHP** dasar, dipadukan dengan markup **HTML** dan *styling* **CSS**. 
+**Proyek 18 (PHPs)** merupakan sebuah prototipe website *e-learning* atau portal mata pelajaran yang dibangun menggunakan bahasa pemrograman **PHP** dasar, dipadukan dengan markup **HTML** dan *styling* **CSS**.
 
 Aplikasi web ini difokuskan pada penyampaian materi terkait mata pelajaran "Komponen Komputer", di mana di dalamnya disimulasikan adanya manajemen materi pelajaran (seperti pengenalan perangkat keras dan perangkat lunak sistem operasi), tugas, serta dilengkapi dengan gerbang otentikasi (fitur Login) sebelum pengguna bisa mengakses lebih jauh.
 
@@ -52,6 +52,7 @@ Aplikasi web ini difokuskan pada penyampaian materi terkait mata pelajaran "Komp
 Karena aplikasi ini menggunakan **PHP**, Anda tidak bisa langsung membukanya dengan cara klik ganda seperti file HTML statis biasa. Anda membutuhkan *Local Web Server* (seperti **XAMPP**, **Laragon**, **WAMP**, atau **MAMP**).
 
 ### Langkah-langkah menggunakan XAMPP:
+
 1. Pastikan Anda sudah menginstal aplikasi [XAMPP](https://www.apachefriends.org/).
 2. Salin folder `php/` (atau seluruh folder `18 phps/`) ke dalam direktori *htdocs* XAMPP Anda.
    - Contoh path Windows: `C:\xampp\htdocs\18_phps`
@@ -61,14 +62,18 @@ Karena aplikasi ini menggunakan **PHP**, Anda tidak bisa langsung membukanya den
    ```
    http://localhost/18_phps/php/index.php
    ```
+
    *(Catatan: sesuaikan nama folder `18_phps` di atas dengan nama folder yang Anda salin di htdocs).*
 
 ### Opsi Alternatif (PHP Built-in Server):
+
 Jika Anda telah menginstal PHP di sistem (*environment variables*), Anda dapat menjalankan server lokal langsung dari terminal:
+
 ```bash
 cd "18 phps/php"
 php -S localhost:8000
 ```
+
 Lalu buka browser di alamat: `http://localhost:8000`
 
 ## 📸 Tampilan Utama Web
@@ -104,21 +109,31 @@ Lalu buka browser di alamat: `http://localhost:8000`
 
 ## 🛠️ Teknologi
 
-| Komponen | Detail |
-|----------|--------|
-| Bahasa Utama | PHP 7.x / 8.x |
-| Markup & Style | HTML5, CSS3 |
-| Server yang Disarankan | Apache (XAMPP / Laragon) |
-| Konsep Web | Dynamic Server-side Rendering (MPA) |
+| Komponen               | Detail                              |
+| ---------------------- | ----------------------------------- |
+| Bahasa Utama           | PHP 7.x / 8.x                       |
+| Markup & Style         | HTML5, CSS3                         |
+| Server yang Disarankan | Apache (XAMPP / Laragon)            |
+| Konsep Web             | Dynamic Server-side Rendering (MPA) |
 
-## 👤 Author
+## 👤 Author & Kontak
 
-**Yogi Ario**
+**Yogi Ario Pratama**
+
+Jika Anda memiliki pertanyaan seputar kode ini atau ingin berdiskusi, silakan hubungi saya melalui WhatsApp:
+📱 **[Chat via WhatsApp (wa.me/6281358113087)](https://wa.me/6281358113087)**
 
 ---
 
+### 💖 Donasi
+Dukungan Anda sangat berarti agar saya dapat terus semangat belajar dan mengembangkan proyek-proyek open-source lainnya. Jika berkenan memberikan donasi/apresiasi, Anda dapat menyalurkannya melalui:
+
+💳 **Bank Seabank**
+- No Rekening: **901497113744**
+- Atas Nama: **Yogi Ario Pratama**
+
 <div align="center">
-
-*Proyek Mata Kuliah — Semester 1 — Teknik Informatika UNP*
-
+  <br>
+  <em>Terima kasih atas kunjungannya. Proyek Mata Kuliah — Semester 1 — Teknik Informatika UNP</em>
 </div>
+
